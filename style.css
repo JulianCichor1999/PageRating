@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+div#container
+{
+    margin: 0 auto;
+    font-family: 'Lato',sans-serif;
+}
+
+@media screen and (max-width:480px) {
+   .rating_table 
+   {
+        font-size:0.6rem!important;
+	word-break: keep-all;
+   }
+}
+
+@media screen and (min-width:481px) {
+   .rating_table 
+   {
+        font-size:1.4rem!important;
+	word-break: keep-all;
+   }
+}
+
+table
+{
+    width:100%;
+    margin-bottom:0;
+    padding:1rem!important;
+    margin-top:0;
+    word-break: keep-all;
+}
+
+table,th,td
+{
+    border-color: #ccbc93 !important;
+}
+
+tr:hover
+{
+	background-color:#e7e2cd;
+	font-weight: 500;
+}
+
+tr:first-child
+{
+    font-weight: normal;
+    background-color: #f9f7f2;
+    text-align:center;
+}
+
+tr > td:first-child
+{
+    text-align: left;
+}
+
+tr > td
+{
+
+    text-align: left;
+}
+
+tr:first-child > td
+{
+
+    text-align: center;
+}
+
+textarea
+{
+    width:100%;
+}
+
+div[id="validator"] p
+{
+    text-align: center;
+    color: red; 
+    font-size:16px;
+    margin-bottom: 0;
+}
